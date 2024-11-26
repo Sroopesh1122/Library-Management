@@ -1,6 +1,6 @@
 <html>
 <body>
-<h2>Hello World!</h2>
+<h2>Hello World! , I am here</h2>
 <form action="<%=request.getContextPath()+"/img/upload" %>" method="post" enctype="multipart/form-data" >
  <input type="file" name="img">
  <input type="text" name="name">
