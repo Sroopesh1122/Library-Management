@@ -14,5 +14,4 @@ public interface CategoryDao
   public List<Category> getAllCategories(String text,int page,int limit)  throws CustomError;
   public List<Category> getAllCategories(int book_id)  throws CustomError;
   public int  getTotalCategories (String text);
-  
 }
